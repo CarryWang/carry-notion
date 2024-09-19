@@ -8,7 +8,6 @@ import { Spinner } from "../../../components/spinner";
 import { useConvexAuth } from "convex/react";
 import { SignInButton, UserButton } from "@clerk/clerk-react";
 import { Button } from "@/components/ui/button";
-import { Ghost } from "lucide-react";
 import Link from "next/link";
 
 const Navbar = () => {
