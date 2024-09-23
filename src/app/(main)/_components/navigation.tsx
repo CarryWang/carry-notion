@@ -12,7 +12,7 @@ import React, {
 } from "react";
 import { useMediaQuery } from "usehooks-ts";
 
-const navigation = () => {
+const Navigation = () => {
   const pathName = usePathname();
   const isMobile = useMediaQuery("(max-width:768px)");
 
@@ -160,4 +160,4 @@ const navigation = () => {
   );
 };
 
-export default navigation;
+export default Navigation;
