@@ -8,7 +8,6 @@ import {
   DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 
@@ -26,7 +25,7 @@ const UserItem = () => {
               <AvatarImage src={user?.imageUrl} />
             </Avatar>
             <span className="text-start font-medium line-clamp-1">
-              {user?.fullName}'s Cotion
+              {user?.fullName}&apos;s Cotion
             </span>
             <ChevronsLeftRight className="rotate-90 h-4 w-4 ml-2 text-muted-foreground" />
           </div>
@@ -49,7 +48,9 @@ const UserItem = () => {
               </Avatar>
             </div>
             <div className="space-y-1">
-              <p className="text-sm text-primary">{user?.fullName}'s Contion</p>
+              <p className="text-sm text-primary">
+                {user?.fullName}&apos;s Contion
+              </p>
             </div>
           </div>
         </div>
