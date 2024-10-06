@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDown, ChevronRight, Divide, LucideIcon } from "lucide-react";
+import { ChevronDown, ChevronRight, LucideIcon } from "lucide-react";
 import { Id } from "@/../convex/_generated/dataModel";
 import { cn } from "@/lib/utils";
 
